@@ -21,7 +21,7 @@
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fKl-g7-t8i">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </mapView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="park.ly-logo" translatesAutoresizingMaskIntoConstraints="NO" id="raP-jR-JKs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="park.ly-logo" translatesAutoresizingMaskIntoConstraints="NO" id="raP-jR-JKs" customClass="ShadowedImageVeiw" customModule="Park_ly" customModuleProvider="target">
                                 <rect key="frame" x="8" y="28" width="359" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="egI-Ie-dJq"/>
