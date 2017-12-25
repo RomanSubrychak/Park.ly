@@ -35,6 +35,9 @@
                                     <constraint firstAttribute="height" constant="75" id="hX7-ZI-os9"/>
                                 </constraints>
                                 <state key="normal" image="parkCar"/>
+                                <connections>
+                                    <action selector="parkBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f9H-9i-rvt"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -51,6 +54,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="fKl-g7-t8i" id="2wP-G5-Q0N"/>
+                        <outlet property="parkBtn" destination="aXW-uu-BIZ" id="egD-SO-Za1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
